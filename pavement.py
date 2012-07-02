@@ -13,14 +13,3 @@ def build():
         output = outputdir / song.basename()
         sh("lilypond -o %s -I %s %s" % (output.abspath(), song.abspath(), ly.abspath()))
     
-@task
-def clean():
-    """Remove generated files (PDFs, MIDIs, etc)"""
-    
-    songs = path('./src').dirs()
-    for song in songs:
-        files = song.files('*.midi')
-        for file in files:
-            file.remove()
-    print 'Removed'
-    
