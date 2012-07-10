@@ -42,7 +42,7 @@ secondMusic = {
   a2. b4 |
   g2 fis2 |
   r4 g b c' |
-  d'2. d'8 c'16 b |
+  d'2. \times 2/3 { d'8 c' b } |
   d'2 c'4 d'4 |
   e'2 cis'4 ais4 |
   b2. b4 |
