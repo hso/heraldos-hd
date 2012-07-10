@@ -5,6 +5,8 @@
 \include "baritone.ly"
 \include "bass.ly"
 
+#(set-default-paper-size "letter")
+
 \header {
   title = "¡Oh, qué amigo nos es Cristo!"
 }
