@@ -59,8 +59,8 @@ baritoneMusic = {
   c'4. b8 c'4 c' |
   a4. a8 c'4 c' |
   c' g g g |
-  g2. c4 |
-  a4. a8 b4 a | % siempre
+  g2. r4 |
+  r2. a4 | % uh, siempre
   g4 a ais a | %  siempre cerca
   a2 fis4 fis8 fis |
   f4 f f d | 
