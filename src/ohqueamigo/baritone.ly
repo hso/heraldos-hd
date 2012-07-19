@@ -17,7 +17,7 @@ baritoneMusic = {
   e2 e4 e | % fe obten-
   g2 g4 e | % drás gozo_y
   c2 d4 e | % paz, gozo_y
-  e2 d2 | % paaz
+  e4 d2. | % paaz
 
   r4 b,2 d4 | % gracia y
   d e2 r4 | % amor 
