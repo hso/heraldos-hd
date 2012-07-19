@@ -36,7 +36,7 @@ secondMusic = {
   e'2 fis' | 
   e'1~ | % ción
   e'2 d'4 c' |
-  a2. a4 |
+  d'2 a4 a4 |
   fis2 a4 b4 |
   b2 a4 g |
   a2. b4 |
@@ -45,8 +45,8 @@ secondMusic = {
   d'2. \times 2/3 { d'8 c' b } |
   d'2 c'4 d'4 |
   e'2 cis'4 ais4 |
-  b2. b4 |
-  b2 a4 g |
+  b2. g4 |
+  g2 a4 g |
   b2. a4 |
   g2.
 
