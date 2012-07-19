@@ -62,8 +62,8 @@ secondMusic = {
 
   c'2 d'~ |
   d'4 c' d' des' |
-  f'2 a4 b8 c' |
-  e'4 c' a b |
+  d'2 a4 a8 a |
+  a4 a f2 |
   
   r4 g4 c' e' |
   e'8 d' d'2. |

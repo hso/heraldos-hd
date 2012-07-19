@@ -63,8 +63,8 @@ firstMusic = {
 
   e'2. f'4 |
   e'2 g' |
-  d'2 a4 a8 a |
-  a4 a f2 |
+  f'2 a4 b8 c' |
+  e'4 c' a b |
   
   r4 g4 c' e' |
   e'8 d' d'2. |
