@@ -6,6 +6,7 @@ OUTPUT_DIR = path('./output')
 MAIN = 'main.ly'
 
 @task
+@needs(['make_output_dir'])
 @cmdopts([
         ('all', 'a', 'Build everything'),
         ('song=', 's', 'Song to bunild')
@@ -24,6 +25,10 @@ def build(options):
     else:
         print 'To build everything, use -a. Specify a song to build with -s <SONG>'
 
+@task
+def make_output_dir():
+    sh("mkdir -p %s" % OUTPUT_DIR.abspath())
+            
 def process(song_path):
     song_name = song_path.basename()
     ly = song_path / MAIN
