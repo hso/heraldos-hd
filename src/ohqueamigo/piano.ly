@@ -2,6 +2,7 @@ pianoUpper = {
   \clef "treble"
   \time 2/4
   \key c \major
+
   <g d' e' g'>4\arpeggio g8 d' |
   c'4 g |
 
@@ -11,6 +12,10 @@ pianoUpper = {
 }
 
 pianoLower = {
+  \clef "bass"
+  \time 2/4
+  \key c \major
+
   <c, g, e>2~\arpeggio |
   <c, g, e> |
   
