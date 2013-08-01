@@ -4,6 +4,7 @@
 \include "second.ly"
 \include "baritone.ly"
 \include "bass.ly"
+\include "piano.ly"
 
 #(set-default-paper-size "letter")
 
@@ -13,6 +14,7 @@
 
 % showLastLength = R1*8
 \score {
+  <<
   \new ChoirStaff <<
 %    \new Lyrics = "first"
     \new Staff = "tenors" \with { printPartCombineTexts = ##f } {
@@ -42,6 +44,19 @@
 %      \context Lyrics = "baritone" \lyricsto "baritone" \baritoneLyrics
 %      \context Lyrics = "bass" \lyricsto "bass" \bassLyrics 
   >>
+
+  \new PianoStaff <<
+    \new Staff = "up" {
+      \pianoUpper
+    }
+
+    \new Staff = "down" {
+      \pianoLower
+    }
+  >>
+
+>>
+
   \layout {}
   \midi {}
 }
