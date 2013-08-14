@@ -42,7 +42,9 @@ pianoUpper = {
   <b' d'' g''>4 <b' d''>8 g' <g' b' d''>4 <b d' g'> |
   <c' e' a'>4 <g' c'' e''> <g' c'' e''> <c' e' g'> |
   <d' g' b' d''>4 <b d' g' b'> <d'' g'' b''> <b' d'' g''> |
-  <c'' e'' a''>4 <g' c'' e''> <g' c'' e'' g''> \times 2/4 { g''16 e'' c'' g' } \times 2/3 { \change Staff = "down" e' c' a \change Staff = "up" } |
+  <c'' e'' a''>4 <g' c'' e''> <g' c'' e'' g''>
+  \once \override Beam #'positions = #'(-6 . -12)
+  \times 2/4 { g''16 e'' c'' g' } \times 2/3 { \change Staff = "down" e' c' a \change Staff = "up" } |
   <b d' g'>1 |
 }
 
@@ -90,6 +92,6 @@ pianoLower = {
   g,8 d b4 <b d'>8 g r16 d8. |
   g,8 e4 e16 d d,8 d4 a8 |
   g,8 d4 g d g16 d |
-  g,8 e g e g, d4. |
+  g,8 e g e g, d8 r8 s |
   g,1 |
 }
