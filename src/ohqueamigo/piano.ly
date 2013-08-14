@@ -16,9 +16,9 @@ pianoUpper = {
   <e' a' c'' e''>4 <a' c'' e'' a''>8 <g' g''> |
   <fis' a' c''>8 <d' d''>8 <d' d''>4 |
   \key bes \major
-  <f' bes' d'' f''>4 <c'' f''>16 d'' f' bes' |
+  <f' bes' d'' f''>4\arpeggio <c'' f''>16 d'' f' bes' |
   aes'8 c'' <bes' d'' g''>4\arpeggio |
-  <bes' d'' g''>4 bes'8 c'' |
+  <bes' d'' g''>4\arpeggio bes'8 c'' |
   <g' d''>8 g'' bes''4 |
   \key d \major
   <a d' fis'>4 <a' fis''>8 d'' |
@@ -92,6 +92,6 @@ pianoLower = {
   g,8\sustainOff\sustainOn d b4 <b d'>8 g r16 d8. |
   g,8\sustainOff\sustainOn e4 e16 d d,8\sustainOff\sustainOn d4 a8 |
   g,8\sustainOff\sustainOn d4 g d g16 d |
-  g,8\sustainOff\sustainOn e g e g, d8 r8 s |
+  g,8\sustainOff\sustainOn e a e g, d8 r8 s |
   g,1\sustainOff\sustainOn |
 }
