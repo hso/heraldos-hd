@@ -34,7 +34,7 @@ pianoUpper = {
   <e' g' b'>4 <e' g' b' e''> <d' g' b' d''> <d' g' b'> |
   <e' g' d''>4 <d' g' e''> <e' a' c''> <d' g' b'> |
   <c' f' a'>4 <f' a' c''> <f' a' d'' f''> <g' c'' e'' g''> |
-  <a' e'' fis'' a''>4 d'8 fis' c'4 \times 2/3 { d'16 e' fis' } \times 2/4 { g' a' b' c'' } |
+  <a' e'' fis'' a''>4 d'8 fis' c'4 \times 2/3 { d'16 e' fis' } g'32 a' b' c'' |
   d''4 <d' d''> <fis' fis''> <fis' d'' fis''> |
   <fis' fis''>4 <g' b' d'' g''> <b'' d'''>16 g'' d''8 \times 2/3 { g''16 e'' d'' } b'16 g' |
   <e' a' c''>4 <d' g' b'> <c' e' a'> <cis' e' g'> |
@@ -44,7 +44,7 @@ pianoUpper = {
   <d' g' b' d''>4 <b d' g' b'> <d'' g'' b''> <b' d'' g''> |
   <c'' e'' a''>4 <g' c'' e''> <g' c'' e'' g''>
   \once \override Beam #'positions = #'(-6 . -12)
-  \times 2/4 { g''16 e'' c'' g' } \times 2/3 { \change Staff = "down" e' c' a \change Staff = "up" } |
+  g''32 e'' c'' g' \times 2/3 { \change Staff = "down" e'16 c' a \change Staff = "up" } |
   <b d' g'>1 |
 }
 
