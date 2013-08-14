@@ -37,6 +37,7 @@
     }
 
     \new Staff = "down" {
+      \set Staff.pedalSustainStyle = #'mixed
       \pianoLower
     }
   >>
