@@ -53,45 +53,45 @@ pianoLower = {
   \time 2/4
   \key c \major
 
-  <c, g, e>2~\arpeggio |
+  <c, g, e>2~\arpeggio\sustainOn |
   <c, g, e> |
   
-  <c, g, e>2\arpeggio |
-  <c' e'>4 g' |
-  f,8 c f a |
-  <fis c'>8 a8 c'4 |
+  <c, g, e>2\arpeggio\sustainOff\sustainOn |
+  <c' e'>4\sustainOff\sustainOn g' |
+  f,8\sustainOff\sustainOn c f a |
+  <fis c'>8\sustainOff\sustainOn a8 c'4 |
   \key d \major
-  <b, a>8 fis8 b4 |
-  e,8 b, <g d'>4\arpeggio |
-  a,8 e <c' e'>4 |
-  d,8 a, d c |
+  <b, a>8\sustainOff\sustainOn fis8 b4 |
+  e,8\sustainOff\sustainOn b, <g d'>4\arpeggio |
+  a,8\sustainOff\sustainOn e <c' e'>4 |
+  d,8\sustainOff\sustainOn a, d c |
   \key bes \major
-  bes,8 f bes4 |
-  bes,,8 f, <f aes>4 |
-  ees,8 bes, ees4 |
-  e4 bes8 d' |
+  bes,8\sustainOff\sustainOn f bes4 |
+  bes,,8\sustainOff\sustainOn f, <f aes>4 |
+  ees,8\sustainOff\sustainOn bes, ees4 |
+  e4\sustainOff\sustainOn bes8 d' |
   \key d \major
-  <a, fis>2 |
-  a,4 a, |
+  <a, fis>2\sustainOff\sustainOn |
+  a,4\sustainOff\sustainOn a,\sustainOff\sustainOn |
   \time 4/4
-  d,4. d16 a, d,8 d4 d,8 |
+  d,4.\sustainOff\sustainOn d16 a, d,8\sustainOff\sustainOn d4 d,8 |
   
   \key g \major
-  g,4 r8 g,16 d, g,,8 g,,4 d,16 g, |
-  g,,8 g,,4 e8 g e g g16 e |
-  g,8 d4 g16 d g,8 g,8 r16 g d8 |
-  g,8 g4 g8 g,4 fis, |
-  e,8 e4 e16 b, d,8 d4 d16 b, |
-  c8 b d' b16 g c8 b d' g |
-  f,8 c f c f, d e4 |
-  d,8 a, d a, d, a, d4 |
-  b,8 fis b fis b,4 r8 b, |
-  e,8 b, e b, e, b, e4 |
-  <a, e>4 <b, e> <c e> <cis, cis> |
-  d,8 d a4 d8 a d'4 |
-  g,8 d b4 <b d'>8 g r16 d8. |
-  g,8 e4 e16 d d,8 d4 a8 |
-  g,8 d4 g d g16 d |
-  g,8 e g e g, d8 r8 s |
-  g,1 |
+  g,4\sustainOff\sustainOn r8 g,16 d, g,,8\sustainOff\sustainOn g,,4 d,16 g, |
+  g,,8\sustainOff\sustainOn g,,4 e8 g e g g16 e |
+  g,8\sustainOff\sustainOn d4 g16 d g,8\sustainOff\sustainOn g,8. g16 d8 |
+  g,8\sustainOff\sustainOn g4 g8 g,4\sustainOff\sustainOn fis,\sustainOff\sustainOn |
+  e,8\sustainOff\sustainOn e4 e16 b, d,8\sustainOff\sustainOn d4 d16 b, |
+  c8\sustainOff\sustainOn b d' b16 g c8\sustainOff\sustainOn b d' g |
+  f,8\sustainOff\sustainOn c f c f,\sustainOff\sustainOn d e4 |
+  d,8\sustainOff\sustainOn a, d a, d,\sustainOff\sustainOn a, d4 |
+  b,8\sustainOff\sustainOn fis b fis b,4 r8 b, |
+  e,8\sustainOff\sustainOn b, e b, e, b, e4 |
+  <a, e>4\sustainOff\sustainOn <b, e>\sustainOff\sustainOn <c e>\sustainOff\sustainOn <cis, cis>\sustainOff\sustainOn |
+  d,8\sustainOff\sustainOn d a4 d8\sustainOff\sustainOn a d'4 |
+  g,8\sustainOff\sustainOn d b4 <b d'>8 g r16 d8. |
+  g,8\sustainOff\sustainOn e4 e16 d d,8\sustainOff\sustainOn d4 a8 |
+  g,8\sustainOff\sustainOn d4 g d g16 d |
+  g,8\sustainOff\sustainOn e g e g, d8 r8 s |
+  g,1\sustainOff\sustainOn |
 }
