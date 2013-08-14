@@ -23,8 +23,27 @@ pianoUpper = {
   \key d \major
   <a d' fis'>4 <a' fis''>8 d'' |
   <g b d' fis'>4 <b d' a'>8 cis'8 |
-  \time 4/4
+  \time 4/4  \tempo 4 = 90
   <a e' g'>4 <g c' e'> <fis a d'> <a d' fis'> |
+
+  \key g \major
+  r8 b <d' g' b'>4 r4 <d' g' b' d''> |
+  r4 <e' g' c'' e''> <c' e' g' c''> <e' g' c'' e''> |
+  <d' fis' a' c''>4 <d' fis' a'>2 <d' fis' a' c''>4 |
+  <a' c''>4 <g' b'> <b' d''>16 g' d'8 <fis' a' d''>16 a' fis' d' |
+  <e' g' b'>4 <e' g' b' e''> <d' g' b' d''> <d' g' b'> |
+  <e' g' d''>4 <d' g' e''> <e' a' c''> <d' g' b'> |
+  <c' f' a'>4 <f' a' c''> <f' a' d'' f''> <g' c'' e'' g''> |
+  <a' e'' fis'' a''>4 d'8 fis' c'4 \times 2/3 { d'16 e' fis' } \times 2/4 { g' a' b' c'' } |
+  d''4 <d' d''> <fis' fis''> <fis' d'' fis''> |
+  <fis' fis''>4 <g' b' d'' g''> <b'' d'''>16 g'' d''8 \times 2/3 { g''16 e'' d'' } b'16 g' |
+  <e' a' c''>4 <d' g' b'> <c' e' a'> <cis' e' g'> |
+  <g d' g' a'>4 <a' a''>16 e'' d'' e'' <a' fis''>4 <a' fis''>16 d'' c'' d'' |
+  <b' d'' g''>4 <b' d''>8 g' <g' b' d''>4 <b d' g'> |
+  <c' e' a'>4 <g' c'' e''> <g' c'' e''> <c' e' g'> |
+  <d' g' b' d''>4 <b d' g' b'> <d'' g'' b''> <b' d'' g''> |
+  <c'' e'' a''>4 <g' c'' e''> <g' c'' e'' g''> \times 2/4 { g''16 e'' c'' g' } \times 2/3 { \change Staff = "down" e' c' a \change Staff = "up" } |
+  <b d' g'>1 |
 }
 
 pianoLower = {
@@ -51,7 +70,26 @@ pianoLower = {
   e4 bes8 d' |
   \key d \major
   <a, fis>2 |
-  a4 a |
+  a,4 a, |
   \time 4/4
   d,4. d16 a, d,8 d4 d,8 |
+  
+  \key g \major
+  g,4 r8 g,16 d, g,,8 g,,4 d,16 g, |
+  g,,8 g,,4 e8 g e g g16 e |
+  g,8 d4 g16 d g,8 g,8 r16 g d8 |
+  g,8 g4 g8 g,4 fis, |
+  e,8 e4 e16 b, d,8 d4 d16 b, |
+  c8 b d' b16 g c8 b d' g |
+  f,8 c f c f, d e4 |
+  d,8 a, d a, d, a, d4 |
+  b,8 fis b fis b,4 r8 b, |
+  e,8 b, e b, e, b, e4 |
+  <a, e>4 <b, e> <c e> <cis, cis> |
+  d,8 d a4 d8 a d'4 |
+  g,8 d b4 <b d'>8 g r16 d8. |
+  g,8 e4 e16 d d,8 d4 a8 |
+  g,8 d4 g d g16 d |
+  g,8 e g e g, d4. |
+  g,1 |
 }

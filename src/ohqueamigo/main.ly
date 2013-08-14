@@ -12,37 +12,22 @@
   title = "¡Oh, qué amigo nos es Cristo!"
 }
 
-% showLastLength = R1*8
+%showLastLength = R1*2
 \score {
   <<
   \new ChoirStaff <<
-%    \new Lyrics = "first"
     \new Staff = "tenors" \with { printPartCombineTexts = ##f } {
+      \set Staff.midiInstrument = #"electric grand"
       \partcombine \firstMusic \secondMusic
     }
 
-    % \new Staff = "tenors" <<
-    %   \new Voice = "first"  { \firstMusic }
-    %   \new Voice = "second" { \secondMusic }
-    % >>
-
-%    \new Lyrics = "second"
-%    \new Lyrics = "baritone"
-
-
-\new Staff = "basses" \with { printPartCombineTexts = ##f } {
+    \new Staff = "basses" \with { printPartCombineTexts = ##f } {
+      \set Staff.midiInstrument = #"electric grand"
       \set Staff.soloText = #"barítono"
       \set Staff.soloIIText = #"bajo"
       \set Staff.aDueText = #"ambos"
       \partcombine \baritoneMusic \bassMusic
     }
-
-    
-%      \new Lyrics = "bass"
-%      \context Lyrics = "first" \lyricsto "first" \firstLyrics
-%      \context Lyrics = "second" \lyricsto "second" \secondLyrics
-%      \context Lyrics = "baritone" \lyricsto "baritone" \baritoneLyrics
-%      \context Lyrics = "bass" \lyricsto "bass" \bassLyrics 
   >>
 
   \new PianoStaff <<
