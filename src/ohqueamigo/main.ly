@@ -31,6 +31,7 @@
   >>
 
   \new PianoStaff <<
+    \set PianoStaff.connectArpeggios = ##t
     \new Staff = "up" {
       \pianoUpper
     }
