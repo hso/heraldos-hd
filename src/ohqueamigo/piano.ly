@@ -71,7 +71,7 @@ pianoLower = {
   ees,8\sustainOff\sustainOn bes, ees4 |
   e4\sustainOff\sustainOn bes8 d' |
   \key d \major
-  <a, fis>2\sustainOff\sustainOn |
+  <a, fis>4\sustainOff\sustainOn a |
   a,4\sustainOff\sustainOn a,\sustainOff\sustainOn |
   \time 4/4
   d,4.\sustainOff\sustainOn d16 a, d,8\sustainOff\sustainOn d4 d,8 |
