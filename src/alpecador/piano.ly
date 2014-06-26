@@ -32,8 +32,7 @@ pianoUpper = {
   <e' g' b' e''>4 e'4 b'2 |
   <fis' b e''>2 dis''8 fis' b'4 |
   <e' b' e''>4 r8 b e'4 g' |
-  r8 \times 2/3 { e'16 g' b' } r8 e'32 g' b' e'' r8 \times 2/3 { e''16 gis'' b'' } \times 8/12 { e'''32 b'' gis'' e'' b' gis' e' b gis e c16 } |
-%  \time 4/4
+  r8 e'32 g' b' r16. e'32 g' b' e'' r8 e''32 gis'' b'' e'''32 b'' gis'' e'' b' gis' e' b gis e c |
 }
 
 pianoLower = {
@@ -69,7 +68,6 @@ pianoLower = {
   c,8\sustainOff\sustainOn g, e g b e' g' b |
   b,8\sustainOff\sustainOn fis b e' b,\sustainOff\sustainOn fis b dis' |
   e,8\sustainOff\sustainOn b, e4. e4 b,8 |
-%  \time 5/4
-  \times 2/3 { e,16 b, e } r8 \times 2/3 { e16 g b } r8 \times 2/3 { e'16 gis' b' } r8 r4 |% \times 2/3 { e''16 b' g' } |
-%  \time 4/4
+  e,16 b,32 e  r16. e32 g b r8 r32 e'32 gis' b' r16 r8 r4 |
+  a,8\sustainOff e8 r2. |
 }
