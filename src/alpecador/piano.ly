@@ -33,6 +33,13 @@ pianoUpper = {
   <fis' b e''>2 dis''8 fis' b'4 |
   <e' b' e''>4 r8 b e'4 g' |
   r8 e'32 g' b' r16. e'32 g' b' e'' r8 e''32 gis'' b'' e'''32 b'' gis'' e'' b' gis' e' b gis e c |
+
+  % tenors
+  <a c'>4 <a c' e' a'> <a' c'' e'' a''>\arpeggio <a'' a'''> |
+  <a e' fis'>4 <a d' fis'> \times 2/3 { d'16 e' fis' } g'16 b' d'' fis'' g'' a'' |
+  d'''8 d'' <fis'' a'' b'' d'''>4 <fis' b'>8 a' <a' b' d'' fis''>4 |
+  <e' g' b' e''>8 <fis' fis''> <g' g''> <b' b''> <b' b''>4 <g' b' e''> |
+  r2 \times 2/3 { a'''32 e''' c''' a'' e'' c'' } g'8 <e g a c'>4 |
 }
 
 pianoLower = {
@@ -69,5 +76,11 @@ pianoLower = {
   b,8\sustainOff\sustainOn fis b e' b,\sustainOff\sustainOn fis b dis' |
   e,8\sustainOff\sustainOn b, e4. e4 b,8 |
   e,16 b,32 e  r16. e32 g b r8 r32 e'32 gis' b' r16 r8 r4 |
-  a,8\sustainOff e8 r2. |
+
+  % tenors
+  a,8\sustainOff\sustainOn e8 r2 a'4 |
+  d,8\sustainOff\sustainOn a, d\sustainOff\sustainOn fis d4\sustainOff\sustainOn <fis a c'> |
+  b,8\sustainOff\sustainOn fis <a b> fis r4 <a b>8 fis |
+  e,8\sustainOff\sustainOn b, e4 <e a d'>8 b e' b |
+  a,8\sustainOff\sustainOn \grace { e } g \times 2/3 { g32 a c' e'32 a' c'' } e''16 a'' r4 r8 a,8 |
 }
