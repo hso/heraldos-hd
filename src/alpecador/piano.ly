@@ -27,7 +27,7 @@ pianoUpper = {
   % B
   <g' b' e''>2 b'4 b'8 e'' |
   dis''2 r8 \times 2/3 { dis''16 e'' fis'' } e''8 dis'' |
-  d''4 g''8 b' d''4 g''8 b' |
+  d''4 g''8 b' d''4 g''4 |
   cis''4 b'8 cis'' e''4 b'8 cis'' |
   <e' g' b' e''>4 e'4 b'2 |
   <fis' b e''>2 dis''8 fis' b'4 |
