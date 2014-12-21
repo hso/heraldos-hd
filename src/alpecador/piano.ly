@@ -39,7 +39,13 @@ pianoUpper = {
   <a e' fis'>4 <a d' fis'> \times 2/3 { d'16 e' fis' } g'16 b' d'' fis'' g'' a'' |
   d'''8 d'' <fis'' a'' b'' d'''>4 <fis' b'>8 a' <a' b' d'' fis''>4 |
   <e' g' b' e''>8 <fis' fis''> <g' g''> <b' b''> <b' b''>4 <g' b' e''> |
-  r2 \times 2/3 { a'''32 e''' c''' a'' e'' c'' } g'8 <e g a c'>4 |
+  <a' c'' a''>2 \times 2/3 { a'''32 e''' c''' a'' e'' c'' } g'8 <e g a c'>4 |
+  <a e' fis'>4 d' <c' e' g'> <c' d' fis'> |
+  <g c' d'>4 <d' g' b'> <b d' g'> <d' g' b'> |
+  <d a c'>4 <d g b> <d a c'> <d g b> |
+  <a c' e' g'>4 <a c' e' g'>\arpeggio a'''32 g''' e''' c''' r8 <a g c'>8 e |
+  <a e' fis'>4 d' <a d' fis'> <a d' fis'> |
+  <fis' a' b' d''>4 <fis'' a'' b'' d'''>4 d'''32 b'' a'' fis'' r8 a8 fis |
 }
 
 pianoLower = {
@@ -83,4 +89,10 @@ pianoLower = {
   b,8\sustainOff\sustainOn fis <a b> fis r4 <a b>8 fis |
   e,8\sustainOff\sustainOn b, e4 <e a d'>8 b e' b |
   a,8\sustainOff\sustainOn \grace { e } g \times 2/3 { g32 a c' e'32 a' c'' } e''16 a'' r4 r8 a,8 |
+  d,8 d4 a8 d a4 a8 |
+  g,8 d g d4 d d,8 |
+  \repeat tremolo 16 { g,,32 g,32 } |
+  a,4 <e g>\arpeggio r8 a''32 g'' e'' c'' r4 |
+  d,8 d4 fis fis8 c4 |
+  b,8 fis b fis r8 d''32 b' a' fis' r4 |
 }
